@@ -4,7 +4,7 @@
   "description": "nada",
   "main": "index.js",
   "scripts": {
-    "build": "webpack-dev-server src/js/app.js dist/bundle.js",
+    "build": "webpack-dev-server --entry ./src/js/app.js --output-filename ./dist/bundle.js",
     "build:prod": "webpack src/js/app.js dist/bundle.js -p"
   },
   "repository": {
